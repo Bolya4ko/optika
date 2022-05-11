@@ -161,7 +161,7 @@ body {
 .menu .menu__list .header-servises::before {
   position: absolute;
   content: '';
-  background-image: url("images/icon/triangle.svg");
+  background-image: url("/images/icon/triangle.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -212,7 +212,7 @@ body {
 .menu__link--servis::before {
   position: absolute;
   content: '';
-  background-image: url("images/icon/arrow.svg");
+  background-image: url("/images/icon/arrow.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -276,7 +276,7 @@ body {
 .slider__btn::after {
   content: '';
   position: absolute;
-  background-image: url("images/icon/right.svg");
+  background-image: url("/images/icon/right.svg");
   width: 30px;
   height: 15px;
   background-repeat: no-repeat;
@@ -375,7 +375,7 @@ body {
 }
 
 .services__item-record {
-  background-image: url("images/servis/01.jpg");
+  background-image: url("/images/servis/01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -412,7 +412,7 @@ body {
 .services__item-btn:after {
   content: '';
   position: absolute;
-  background-image: url("images/icon/right.png");
+  background-image: url("/images/icon/right.png");
   background-repeat: no-repeat;
   right: 10px;
   top: 50%;
@@ -423,7 +423,7 @@ body {
 }
 
 .services__item-service {
-  background-image: url("images/servis/02.jpg");
+  background-image: url("/images/servis/02.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -495,7 +495,7 @@ body {
 .doctor__wrapper::after {
   content: '';
   position: absolute;
-  background-image: url("images/doctor/tabl.png");
+  background-image: url("/images/doctor/tabl.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -580,7 +580,6 @@ body {
 }
 
 .big-slider__img {
-  /*     width: 200px; */
   height: 300px;
   float: left;
   margin-right: 40px;
@@ -635,7 +634,7 @@ body {
 .big-slider__btn::after {
   content: '';
   position: absolute;
-  background-image: url("images/icon/right.svg");
+  background-image: url("/images/icon/right.svg");
   width: 30px;
   height: 15px;
   background-repeat: no-repeat;
@@ -1125,30 +1124,6 @@ body {
   height: 390px;
   z-index: 10;
   margin-right: 20px;
-  /*   &::before {
-    content: '';
-    position: absolute;
-    width: 203px;
-    height: 203px;
-    background: rgba(146, 247, 255, 0.55);
-    border-radius: 10px;
-    top: -10px;
-    left: -10px;
-    z-index: 0;
-    border-radius: 10%;
-  } */
-  /*   &::after {
-    content: '';
-    position: absolute;
-    width: 203px;
-    height: 203px;
-    background: rgba(146, 247, 255, 0.55);
-    border-radius: 10px;
-    bottom: -10px;
-    right: -10px;
-    z-index: -1;
-    border-radius: 10%;
-  } */
 }
 
 .about-slider__items img {
@@ -1290,7 +1265,7 @@ body {
 .license__item::before {
   content: '';
   position: absolute;
-  background-image: url("images/license/icon01.svg");
+  background-image: url("/images/license/icon01.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1393,7 +1368,6 @@ body {
 }
 
 .coment-tabs__slide {
-  /*     min-width: 630px; */
   margin: 15px 10px;
   height: 450px;
   padding: 30px 30px 30px 30px;
@@ -1450,7 +1424,7 @@ body {
 .coment-tabs__link::before {
   content: '';
   position: absolute;
-  background-image: url("images/comment/right.svg");
+  background-image: url("/images/comment/right.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1551,7 +1525,7 @@ body {
 .coment-tabs__history::before {
   content: '';
   position: absolute;
-  background-image: url("images/comment/right.svg");
+  background-image: url("/images/comment/right.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1601,7 +1575,7 @@ body {
 .night-optyka__left::after {
   position: absolute;
   content: '';
-  background-image: url("images/night/icon.png");
+  background-image: url("/images/night/icon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1636,7 +1610,7 @@ body {
 .night-optyka__right::before {
   position: absolute;
   content: '';
-  background-image: url("images/night/icon.png");
+  background-image: url("/images/night/icon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1678,7 +1652,7 @@ body {
 .night-optyka__btn::after {
   position: absolute;
   content: '';
-  background-image: url("images/night/right-arrow.png");
+  background-image: url("/images/night/right-arrow.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1775,7 +1749,7 @@ body {
   position: absolute;
   width: 33px;
   height: 33px;
-  background-image: url("images/advantages/btn.png");
+  background-image: url("/images/advantages/btn.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1848,7 +1822,7 @@ footer {
 .footer-top__item-btn::before {
   content: '';
   position: absolute;
-  background-image: url("images/footer/cart.svg");
+  background-image: url("/images/footer/cart.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2117,11 +2091,6 @@ footer {
   .about-tabs__content--video {
     max-width: 100%;
   }
-  .night-optyka__img {
-    /*       width: 370px;
-      height: 480px;
-      align-self: center; */
-  }
 }
 
 @media (max-width: 1050px) {
@@ -2195,7 +2164,7 @@ footer {
   .header__top-phone::before {
     content: '';
     position: absolute;
-    background-image: url("images/phone-call.png");
+    background-image: url("/images/phone-call.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 20px;
@@ -2248,7 +2217,7 @@ footer {
     font-size: 26px;
     padding: 10px 0;
     margin: 10px 0;
-    background-image: url("images/advantages/btn.png");
+    background-image: url("/images/advantages/btn.png");
     background-repeat: no-repeat;
     background-position: 0 0;
     padding-left: 50px;
@@ -2318,7 +2287,6 @@ footer {
     position: absolute;
   }
   .header .menu .header-servises {
-    /* display: none; */
     min-width: 660px;
     padding: 26px 60px 20px 60px;
     -webkit-box-shadow: 0px 2px 20px rgba(78, 127, 222, 0.2);
@@ -2356,7 +2324,7 @@ footer {
   .header__top-btn::before {
     position: absolute;
     content: '';
-    background-image: url("images/footer/cart.svg");
+    background-image: url("/images/footer/cart.svg");
     width: 20px;
     height: 20px;
     top: 10px;
@@ -2385,7 +2353,7 @@ footer {
 
 @media (max-width: 750px) {
   .slider__items {
-    background-image: url("images/slider/001.jpg") !important;
+    background-image: url("/images/slider/001.jpg") !important;
   }
 }
 
@@ -2494,7 +2462,7 @@ footer {
   .services__item-record, .services__item-service {
     min-width: 300px;
     max-width: 100%;
-    background-image: url("..//images/slider/001.jpg");
+    background-image: url("/images/slider/001.jpg");
   }
   .services__item-title, .services__item-text {
     max-width: 100%;
@@ -2517,9 +2485,6 @@ footer {
   .about-slider__items img {
     height: 100%;
   }
-  /*   .slick__btn-next {
-    bottom: 69px;
-} */
   .about-tabs__servisec-item {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
