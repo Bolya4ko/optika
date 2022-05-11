@@ -210,6 +210,10 @@ body {
     height: 640px;
   }
 
+  li bottom {
+    border: none;
+  }
+
   &__item {
     justify-content: space-between;
     color: #fff;
