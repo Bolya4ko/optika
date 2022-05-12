@@ -139,7 +139,7 @@ body {
       &::before {
         position: absolute;
         content: '';
-        background-image: url('/images/icon/triangle.svg');
+        background-image: url('../images/icon/triangle.svg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -190,7 +190,7 @@ body {
     &::before {
       position: absolute;
       content: '';
-      background-image: url('/images/icon/arrow.svg');
+      background-image: url('../images/icon/arrow.svg');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -256,7 +256,7 @@ body {
     &::after {
       content: '';
       position: absolute;
-      background-image: url('/images/icon/right.svg');
+      background-image: url('../images/icon/right.svg');
       width: 30px;
       height: 15px;
       background-repeat: no-repeat;
@@ -386,7 +386,7 @@ body {
     &:after {
       content: '';
       position: absolute;
-      background-image: url('/images/icon/right.png');
+      background-image: url('../images/icon/right.png');
       background-repeat: no-repeat;
       right: 10px;
       top: 50%;
@@ -397,7 +397,7 @@ body {
   }
 
   &__item-service {
-    background-image: url('/images/servis/02.jpg');
+    background-image: url('../images/servis/02.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -459,7 +459,7 @@ body {
     &::after {
       content: '';
       position: absolute;
-      background-image: url('/images/doctor/tabl.png');
+      background-image: url('../images/doctor/tabl.png');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -592,7 +592,7 @@ body {
     &::after {
       content: '';
       position: absolute;
-      background-image: url('/images/icon/right.svg');
+      background-image: url('../images/icon/right.svg');
       width: 30px;
       height: 15px;
       background-repeat: no-repeat;
@@ -1114,7 +1114,7 @@ body {
     &::before {
       content: '';
       position: absolute;
-      background-image: url('/images/license/icon01.svg');
+      background-image: url('../images/license/icon01.svg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -1259,7 +1259,7 @@ body {
     &::before {
       content: '';
       position: absolute;
-      background-image: url('/images/comment/right.svg');
+      background-image: url('../images/comment/right.svg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -1348,7 +1348,7 @@ body {
     &::before {
       content: '';
       position: absolute;
-      background-image: url('/images/comment/right.svg');
+      background-image: url('../images/comment/right.svg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -1394,7 +1394,7 @@ body {
     &::after {
       position: absolute;
       content: '';
-      background-image: url('/images/night/icon.png');
+      background-image: url('../images/night/icon.png');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -1429,7 +1429,7 @@ body {
     &::before {
       position: absolute;
       content: '';
-      background-image: url('/images/night/icon.png');
+      background-image: url('../images/night/icon.png');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -1469,7 +1469,7 @@ body {
     &::after {
       position: absolute;
       content: '';
-      background-image: url('/images/night/right-arrow.png');
+      background-image: url('../images/night/right-arrow.png');
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -1553,7 +1553,7 @@ body {
       position: absolute;
       width: 33px;
       height: 33px;
-      background-image: url('/images/advantages/btn.png');
+      background-image: url('../images/advantages/btn.png');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -1616,7 +1616,7 @@ footer {
     &::before {
       content: '';
       position: absolute;
-      background-image: url('/images/footer/cart.svg');
+      background-image: url('../images/footer/cart.svg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -1979,7 +1979,7 @@ footer {
       &::before {
         content: '';
         position: absolute;
-        background-image: url('/images/phone-call.png');
+        background-image: url('../images/phone-call.png');
         background-size: cover;
         background-repeat: no-repeat;
         width: 20px;
@@ -2043,7 +2043,7 @@ footer {
         font-size: 26px;
         padding: 10px 0;
         margin: 10px 0;
-        background-image: url('/images/advantages/btn.png');
+        background-image: url('../images/advantages/btn.png');
         background-repeat: no-repeat;
         background-position: 0 0;
         padding-left: 50px;
@@ -2158,7 +2158,7 @@ footer {
       &::before {
         position: absolute;
         content: '';
-        background-image: url('/images/footer/cart.svg');
+        background-image: url('../images/footer/cart.svg');
         width: 20px;
         height: 20px;
         top: 10px;
@@ -2195,7 +2195,7 @@ footer {
 @media (max-width: 750px) {
   .slider {
     &__items {
-      background-image: url('/images/slider/001.jpg') !important;
+      background-image: url('../images/slider/001.jpg') !important;
     }
   }
 }
@@ -2329,7 +2329,7 @@ footer {
     &__item-service {
       min-width: 300px;
       max-width: 100%;
-      background-image: url('/images/slider/001.jpg');
+      background-image: url('../images/slider/001.jpg');
     }
 
     &__item-title,
